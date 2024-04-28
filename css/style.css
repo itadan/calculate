@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f0f0f3;
+}
+h1{
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+}
+.conatainer{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+    
+}
+.mainCalculatorBlock{
+    border-radius: 12px;
+    width: 411px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.topCalculatorBlock{
+    height: 252px;
+    background-color: #313131;
+    border-radius: 12px 12px 0px 0px;
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 64px;
+    text-align: right;
+    padding-right: 30px;
+}
+.bottomCalculatorBlock{
+    height: 532px;
+    background-color: #E9E9ED;
+    border-radius: 0px 0px 12px 12px;
+    padding: 0 40px 0 40px;
+}
+.buttonContainer{
+    display: flex;
+    gap: 19px;
+    padding-top: 24px;
+    
+    
+}
+.greyButtons{
+    color: #898989;
+}
+.purpleButtons{
+color: #745FF2;
+}
+.zero{
+    min-width: 157px;
+}
+.equalSign{
+    background-color: #2DD3C5;
+    color: #fff;
+}
+button{
+    font-family: "Oswald", sans-serif;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 500;
+    width: 70px;
+    height: 70px;
+    color: #728ab7;
+    border-radius: 16px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.44);
+    background: #f0f0f3;
+    border: 0px;
+}
